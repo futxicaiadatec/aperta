@@ -1,0 +1,19 @@
+{
+  "name": "aperta",
+  "version": "1.0.0",
+  "description": "emulando botões analógicos em javascript",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futxicaiadatec/aperta.git"
+  },
+  "author": "itacir gabral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/futxicaiadatec/aperta/issues"
+  },
+  "homepage": "https://github.com/futxicaiadatec/aperta#readme"
+}
