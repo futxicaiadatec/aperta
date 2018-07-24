@@ -1,10 +1,9 @@
 title: FUTX APERTA
 author: Itacir Gabral
-email: itacir@gabral.net
 description: Projeto de extenção futxicaiada tecnológica da Universidade Federal
   do Mato Grosso. Minicurso de jogos, 28 de julho de 2018. Playground para
   simulação de botões analógicos em javascript
-github_username:  itacirgabral
+github_username: futxicaiadatec
 show_excerpts: false
 minima:
   date_format: "%b %-d, %Y"
