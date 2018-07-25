@@ -1,0 +1,1559 @@
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:18px;
+    color:#000;
+    background-image:url(images/bg_body.png);
+    background-repeat:repeat-x;
+    margin:0;
+    padding:0
+}
+em{
+    font-style:italic
+}
+h1{
+    font-size:26px
+}
+h3{
+    font-size:20px
+}
+ol{
+    list-style-type:decimal;
+    margin:5px 0 5px 30px;
+    padding:0
+}
+ul li,ol li{
+    margin:0 0 4px;
+    padding:0
+}
+.left{
+    float:left;
+    display:inline
+}
+#mainContainer{
+    width:971px;
+    margin:0 auto;
+    padding:0
+}
+.noscript{
+    background-color:#FF9;
+    font-size:12px;
+    color:#C00;
+    text-align:center;
+    padding:10px 0
+}
+#header{
+    margin:0
+}
+a.home{
+    height:15px;
+    background:url(images/btn_inicio.png) no-repeat 0 0;
+    float:left;
+    margin:5px 15px 0 35px;
+    padding:2px 65px 5px 0
+}
+a.home:hover{
+    background:url(images/btn_inicio.png) no-repeat 0 -22px
+}
+.busca{
+    right:42px;
+    position:absolute;
+    background:url(images/bginputsearch.png) no-repeat;
+    margin:4px 0 0;
+    _left:782px
+}
+.busca:hover,.busca:active{
+    background:url(images/bginputsearchhover.png) no-repeat
+}
+.processo{
+    position:absolute;
+    background:url(images/bginputsearch.png) no-repeat;
+    margin:1px 3px 0
+}
+.search input,.search button{
+    border:0;
+    float:left
+}
+.search{
+    padding:0
+}
+.search .box{
+    background-color:transparent;
+    width:105px;
+    font-size:11px;
+    color:#000;
+    margin:0;
+    padding:2px 8px
+}
+.search button.btn{
+    width:22px;
+    height:18px;
+    text-indent:-9999px;
+    background:url(images/btn_lupa.png);
+    border:0;
+    background-color:transparent;
+    cursor:pointer
+}
+.menuPortais{
+    background-image:url(images/bg_menu_portais.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align:center;
+    position:relative;
+    background-color:#FFF;
+    height:28px;
+    margin:2px 0 0;
+    padding:5px 0 1px
+}
+.menuPortais ul{
+    list-style-type:none;
+    display:block;
+    margin:0 0 0 100px;
+    padding:0 40px 0 0
+}
+.menuPortais ul li{
+    float:left;
+    display:inline;
+    background:url(images/div_vert_alun_prof_tec.png) no-repeat right 0;
+    margin:0 0 0 12px;
+    padding:0 18px 0 0
+}
+#navHorizontal{
+    line-height:30px;
+    text-align:center;
+    background-color:#FFF;
+    margin-right:0;
+    margin-left:0
+}
+#columnOne{
+    float:left;
+    width:377px;
+    margin:0
+}
+#columnOne h2,#columnThree h2{
+    font-size:14px;
+    margin:8px 0 0
+}
+#columnTwo{
+    float:left;
+    width:350px;
+    margin:0;
+    padding:0 5px 10px 12px
+}
+#columnThree{
+    float:right;
+    width:210px;
+    margin:0;
+    padding:0 5px 10px
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+.clearfix{
+    display:block;
+    clear:both
+}
+* html .clearfix{
+    height:1%
+}
+#navHorizontal ul,#navVertical ul{
+    list-style:none;
+    display:inline;
+    margin:0 0 0 20px;
+    padding:0
+}
+.noticiasDestaque p{
+    font-size:11px;
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif
+}
+p.pDestaque{
+    font-size:12px;
+    border-bottom:1px dotted #ccc;
+    padding:0 0 10px
+}
+h2.gray a{
+    color:#666 !important
+}
+.noticiasDestaque a{
+    color:#036
+}
+.noticiasDestaque h2 a{
+    font-size:12px
+}
+.noticiasDestaque a:hover{
+    text-decoration:underline;
+    color:#036
+}
+.noticiasDestaque{
+    width:330px;
+    height:191px;
+    background-image:url(images/bg_noticias_principal2.jpg);
+    background-repeat:no-repeat;
+    margin-left:20px;
+    padding-left:15px;
+    padding-top:16px;
+    padding-right:16px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    position:relative;
+    line-height:17px
+}
+#page_navigation{
+    text-align:right;
+    margin:0 0 5px
+}
+.page_navigation_cursos{
+    height:100px !important;
+    line-height:29px;
+    margin:0 0 5px;
+    text-align:center;
+    width:800px !important;
+    word-wrap:break-word
+}
+.page_navigation_cursos a{
+    border:1px solid #ccc;
+    color:#000;
+    text-decoration:none;
+    font-size:14px;
+    margin:0 2px;
+    padding:0 5px
+}
+.active_page{
+    background:#00346d;
+    color:#FFF !important
+}
+#mainContainer #Content{
+    background-color:#FFF;
+    margin-bottom:10px;
+    padding-top:20px
+}
+#columnOne .noticiasDestaque h1{
+    color:#036;
+    font-size:18px;
+    line-height:17px;
+    margin:0 0 4px;
+    padding:0
+}
+.acessoRapido{
+    position:absolute;
+    right:195px;
+    padding:3px 0 0
+}
+#header .bgControleTopo{
+    background-image:url(images/bg_controle_topo.jpg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    height:25px;
+    padding-top:3px
+}
+.campus select{
+    font-size:11px;
+    width:170px;
+    margin:0 0 0 333px
+}
+.controles{
+    float:right;
+    margin:1px 25px 0 0
+}
+.contrasteBt{
+    float:left;
+    margin:2px 14px 0 0
+}
+.contrasteBt a{
+    cursor:pointer
+}
+.increaseDecrease{
+    float:left
+}
+.bandeiras{
+    width:135px;
+    float:left;
+    padding:0 0 0 18px
+}
+.idiomas{
+    font-size:11px;
+    color:#FFF
+}
+#header .topo{
+    background-image:url(images/banner_topo.jpg);
+    background-repeat:repeat-x;
+    overflow:auto;
+    width:971px
+}
+.topo .logo{
+    float:left;
+    display:inline;
+    margin:4px 0 0 56px;
+    padding:0 0 5px
+}
+#navHorizontal .menuHoriz{
+    background-image:url(images/bg_menu.png);
+    background-repeat:no-repeat;
+    background-position:center -1px;
+    height:53px;
+    margin:0
+}
+#direitaMenu a.direitaMenuItem{
+    cursor:pointer;
+    display:block;
+    margin-top:0;
+    text-decoration:none;
+    outline:0;
+    clear:both;
+    line-height:40px
+}
+.tvUniv{
+    text-align:center;
+    width:180px !important;
+    border:none !important;
+    padding:2px 0 3px !important
+}
+ul.forms_divulgue{
+    list-style-type:none;
+    padding:0;
+    margin:4px 0 0 4px
+}
+ul.forms_divulgue li{
+    background:url(images/forms_ico.png) no-repeat;
+    padding:0 0 0 22px;
+    margin:0 0 7px 0
+}
+ul.forms_divulgue li a{
+    text-decoration:none;
+    color:#666
+}
+ul.forms_divulgue li a:hover{
+    text-decoration:underline;
+    color:#333
+}
+.editoraLista{
+    height:170px;
+    overflow-x:hidden;
+    overflow-y:auto
+}
+.editoraLista ul,.parceirosLista ul{
+    list-style-type:none;
+    margin:0;
+    padding:0
+}
+.editoraLista li{
+    display:inline;
+    float:left;
+    padding:15px 0;
+    text-align:center;
+    width:150px
+}
+.parceiros{
+    background-image:url(images/bg_parceiros.jpg);
+    background-repeat:no-repeat;
+    text-align:center;
+    width:925px;
+    position:relative;
+    margin:0 auto 40px;
+    padding:17px 0 0;
+    overflow:auto
+}
+.parceirosLista{
+    width:698px;
+    text-align:left;
+    overflow:auto;
+    margin:0;
+    padding:0 0 0 5px;
+    float:left
+}
+.parceirosLista2{
+    width:836px;
+    text-align:left;
+    overflow:auto;
+    margin:0;
+    padding:0 0 0 49px;
+    float:left
+}
+.parceirosLista li,.parceirosLista2 li{
+    float:left;
+    display:inline;
+    padding:0 6px
+}
+.previous{
+    background:url(images/btn_seta_voltar.png) no-repeat;
+    cursor:pointer;
+    width:25px;
+    height:26px;
+    position:absolute;
+    bottom:13px;
+    left:59px;
+    text-indent:-9999px !important
+}
+.next{
+    background:url(images/btn_seta_avancar.png) no-repeat;
+    width:25px;
+    height:26px;
+    cursor:pointer;
+    position:absolute;
+    right:59px;
+    bottom:13px;
+    text-indent:-9999px !important
+}
+.parceiros .next{
+    right:25px
+}
+.parceiros .previous{
+    left:20px
+}
+.parc_fix{
+    float:left;
+    padding:0 0 0 57px
+}
+.disabled,.disabled:hover{
+    -moz-opacity:.5;
+    opacity:.5;
+    filter:alpha(opacity=5);
+    cursor:default
+}
+#direitaMenu>div{
+    border-bottom:1px solid #eaeaea;
+    border-left:1px solid #eaeaea;
+    border-right:1px solid #eaeaea;
+    font-size:11px;
+    position:relative;
+    width:160px;
+    margin:-4px 10px 5px 7px;
+    padding:8px
+}
+.vitrineDestaque{
+    position:relative;
+    width:335px;
+    height:225px;
+    overflow:auto;
+    margin:0 auto 7px
+}
+.vitrineDestaque ul{
+    list-style:none;
+    width:1500px;
+    overflow:auto;
+    position:relative;
+    margin:0;
+    padding:0
+}
+.vitrineDestaque .descriNoticiaDestaque{
+    background-color:#000;
+    position:absolute;
+    left:0;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    -khtml-opacity:.5;
+    -ms-filter:alpha(opacity=50);
+    bottom:0;
+    width:100%;
+    color:#FFF;
+    font-size:11px;
+    height:38px
+}
+.descriNoticiaDestaque p{
+    line-height:13px;
+    padding:5px 6px 0
+}
+.textholder{
+    text-align:left;
+    font-size:11px !important;
+    font-family:Arial,Helvetica,sans-serif;
+    font-style:normal;
+    color:#fff;
+    line-height:14px;
+    padding:6px
+}
+.aconteceUfmt{
+    background:url(images/bg_acontece.jpg) no-repeat;
+    margin-left:6px;
+    font-size:11px;
+    position:relative;
+    padding:45px 10px 0 13px
+}
+.blocosAcontece{
+    margin-top:3px;
+    margin-bottom:3px;
+    line-height:15px;
+    color:#666;
+    height:270px
+}
+#page_navigation_acontece{
+    text-align:right;
+    position:absolute;
+    right:15px;
+    bottom:10px;
+    margin:0 0 5px
+}
+#page_navigation_acontece a:hover{
+    border:1px solid #666
+}
+.active_page_acontece{
+    background:#666;
+    color:#FFF !important
+}
+.bgBloco{
+    background:url(images/bg_noticia_servico.gif) no-repeat scroll 0 0 transparent;
+    height:60px;
+    overflow:hidden;
+    padding:4px 0 0 10px
+}
+.bgBlocoSistema{
+    background:url(images/bg_noticia_servico.gif) no-repeat scroll 0 0 transparent;
+    height:60px;
+    overflow:auto;
+    padding:4px 4px 0 10px
+}
+#verTodosSistemas a{
+    position:absolute;
+    bottom:245px;
+    padding-left:280px;
+    font-size:11px;
+    text-decoration:underline
+}
+.blocoSistema{
+    width:160px;
+    float:left
+}
+.imgBlocoSistema{
+    float:left;
+    margin-right:10px
+}
+.conteudoBlocoSistema{
+    text-align:left;
+    height:30px;
+    font-size:11px;
+    color:#666
+}
+.imgBloco{
+    float:left;
+    margin-right:19px;
+    margin-bottom:10px
+}
+.imgBlocoAcontece{
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px
+}
+.conteudoBloco a,.conteudoBlocoAcontece a,.conteudoBlocoSistema a{
+    color:#069;
+    text-transform:uppercase
+}
+.conteudoBlocoAcontece{
+    float:left;
+    width:210px;
+    font-size:11px
+}
+.conteudoBloco strong{
+    color:#005c97;
+    display:block
+}
+.tomeNota{
+    background:url(images/bg_tome_nota.png) no-repeat scroll 0 0 transparent;
+    clear:left;
+    font-size:11px;
+    height:25px;
+    width:500px;
+    overflow:auto;
+    margin:0 0 20px 22px;
+    padding:8px 0 8px 212px;
+    _position:absolute
+}
+.news ul{
+    list-style-type:none;
+    overflow:auto;
+    margin:0;
+    padding:0
+}
+.news ul li,.news ol li{
+    list-style-type:none !important;
+    margin:5px 0 0
+}
+.mais_not a{
+    float:left;
+    border:1px solid #ccc;
+    font-size:11px;
+    font-weight:700;
+    padding:0 5px;
+    margin:0 0 0 22px
+}
+.mais_not a:hover{
+    text-decoration:underline
+}
+.mais_aco a{
+    position:absolute;
+    top:340px;
+    border:1px solid #666;
+    color:#191970;
+    font-size:11px;
+    left:10px;
+    font-weight:700;
+    padding:3px 5px
+}
+#mapFooter{
+    font-size:10px;
+    clear:both;
+    overflow:auto;
+    margin:0;
+    padding:5px 5px 5px 30px
+}
+.leftFooter{
+    float:left;
+    font-size:11px;
+    width:100px
+}
+.leftFooterAlt{
+    float:left;
+    font-size:11px;
+    width:90px
+}
+.redes{
+    text-align:left;
+    width:960px;
+    margin:0 auto
+}
+.footerAnimado{
+    background-image:url(images/bg_ext_rodape.jpg);
+    text-align:center;
+    height:135px;
+    background-position:0 -10px;
+    background-repeat:repeat-x
+}
+.footer{
+    text-align:center;
+    font-size:11px;
+    color:#333;
+    background:url(images/bg_rodape_endereco.jpg) repeat-x 0 bottom;
+    line-height:16px;
+    padding:0 0 6px
+}
+#container a:hover,#columnTwo a:hover,#footer a:hover,#footer a:active{
+    text-decoration:underline;
+    color:#069
+}
+.efeitoTopo{
+    float:right;
+    height:154px;
+    overflow:hidden;
+    width:345px;
+    margin-right:40px
+}
+#topoEfeito1{
+    position:relative;
+    float:left
+}
+#topoEfeito2{
+    position:relative;
+    float:left;
+    width:345px;
+    height:154px;
+    display:block;
+    border:0;
+    top:-152px
+}
+.selectArea{
+    width:160px;
+    height:19px;
+    background:url(images/select_bgall.png) no-repeat left top;
+    font-size:11px;
+    text-align:left
+}
+.selectArea .left{
+    width:8px;
+    height:19px;
+    float:left
+}
+.selectArea .right{
+    width:21px;
+    margin-top:1px;
+    height:19px;
+    float:right;
+    background:url(images/btn_combo.png) no-repeat left top
+}
+.selectArea .right a{
+    display:block;
+    width:200px;
+    height:21px;
+    margin-left:-178px;
+    position:absolute
+}
+.selectArea .center{
+    width:160px;
+    color:#000;
+    padding-top:1px;
+    overflow:hidden;
+    white-space:nowrap
+}
+.optionsDivInvisible,.optionsDivVisible{
+    position:absolute;
+    margin-left:1px;
+    width:150px !important;
+    background:#ededed;
+    font-size:11px;
+    z-index:9999;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    height:180px;
+    overflow:auto;
+    padding:2px
+}
+.optionsDivVisible{
+    display:block
+}
+.optionsDivVisible a{
+    color:#000;
+    text-decoration:none;
+    display:block;
+    border-bottom:1px solid #ccc;
+    padding:1px 4px
+}
+.optionsDivVisible a:hover{
+    color:#FFF;
+    background:#666;
+    border-color:#cfd0d6
+}
+#breadcrumb{
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin-left:40px;
+    margin-bottom:10px;
+    font-size:11px;
+    color:#09f
+}
+#breadcrumb a{
+    text-decoration:none;
+    color:#09f
+}
+div#noticias{
+    width:664px;
+    float:left;
+    margin:20px 34px 10px 40px
+}
+div#text_noticia{
+    margin:0 0 20px
+}
+div#text_noticia a{
+    text-decoration:underline
+}
+div#text_noticia ul{
+    margin:10px;
+    font-size:12px;
+    margin-left:20px
+}
+div#text_noticia ul li{
+    list-style-type:disc
+}
+.img_noticia{
+    float:right;
+    position:relative;
+    margin:20px;
+    width:300px
+}
+div.noticias h1{
+    font-size:22px;
+    color:#036;
+    margin:0 0 22px
+}
+div.noticias{
+    text-align:justify
+}
+div#text_noticia p{
+    color:#333;
+    font-size:80%;
+    letter-spacing:-.02em;
+    line-height:1.3em;
+    padding-bottom:1.5em
+}
+div#text_noticia p:first-child:first-letter {
+    font-size:400%;
+    float:left;
+    width:1em;
+    padding:5px 5px 0 0
+}
+span.link{
+    background:url(images/bg_link.jpg) no-repeat 0 -7px;
+    margin-bottom:10px;
+    padding:0 0 0 55px
+}
+span.link label{
+    height:30px
+}
+span.link input{
+    width:200px;
+    font-size:11px;
+    position:relative;
+    top:-3px
+}
+span.share{
+    float:right;
+    font-size:11px;
+    width:160px;
+    padding:6px 0 0
+}
+.cat_date_not{
+    font-size:11px;
+    color:#900;
+    text-align:right
+}
+div.ultimas_noticias{
+    margin:30px 0
+}
+div.lista_noticias p{
+    font-size:12px;
+    padding:1px 8px
+}
+div.lista_noticias span{
+    color:#900;
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size:11px
+}
+p.even{
+    background-color:#DDD
+}
+div.barra h1{
+    font-size:31px;
+    color:#999;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:70px;
+    background:url(images/dot_cursos.jpg) no-repeat 0;
+    margin:0 0 22px 35px
+}
+div.barra h2{
+    font-size:19px;
+    color:#999;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:70px;
+    background:url(images/dot_cursos.jpg) no-repeat 0 25px;
+    margin:0 0 22px 35px
+}
+div.barra_editais h1{
+    font-size:31px;
+    color:#999;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:70px;
+    background:url(images/bg_tit_editais.gif) no-repeat 0;
+    margin:0 0 22px 35px
+}
+div#content_cursos{
+    min-height:360px;
+    padding:0 35px
+}
+div#pagination_cursos{
+    background:#ebebeb url(images/bg_footer_cursos.jpg) no-repeat 0 bottom;
+    height:110px;
+    text-align:center;
+    padding:110px 40px 0
+}
+#pagination{
+    text-align:center
+}
+#pagination span{
+    font-size:14px;
+    background-color:#00346d;
+    background-image:none;
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-position:0 0;
+    color:#FFF;
+    padding:0 5px
+}
+#pagination #setaVazia{
+    background-color:#FFF;
+    background-position:0 0;
+    color:#000;
+    border:solid 1px;
+    border-color:#eaeaea;
+    padding:0 5px
+}
+.linhaDivisoriaPaginacao{
+    text-align:center;
+    border-top:2px solid #a9a9a9;
+    margin-top:10px;
+    width:650px;
+    float:left;
+    padding:10px
+}
+div.barra_busca{
+    padding:0 35px 50px
+}
+.barra_busca span.search{
+    float:left;
+    width:170px;
+    display:inline;
+    margin-right:10px
+}
+.busca_cursos input{
+    width:103px;
+    background:url(images/bginputsearch.png) no-repeat;
+    margin:0 2px 0 0
+}
+div.legendas{
+    font-size:12px;
+    color:#666;
+    padding-left:33px
+}
+span.leg01{
+    width:505px;
+    float:left
+}
+span.leg02{
+    width:145px;
+    text-align:center;
+    float:left
+}
+span.leg03{
+    width:90px;
+    text-align:center;
+    float:left
+}
+span.leg01_editais{
+    width:485px;
+    float:left
+}
+span.leg02_editais{
+    width:144px;
+    text-align:center;
+    float:left
+}
+span.leg03_editais{
+    width:50px;
+    text-align:center;
+    float:left
+}
+div.acc_trigger{
+    background:url(images/header_acc_cursos.png) no-repeat left -3px;
+    height:30px;
+    line-height:31px;
+    width:830px;
+    font-size:14px;
+    font-weight:400;
+    float:left;
+    margin:0;
+    padding:0
+}
+div.acc_trigger_spec{
+    background:url(images/header_acc_spec.png) no-repeat left -3px;
+    height:30px;
+    line-height:31px;
+    width:830px;
+    font-size:14px;
+    font-weight:400;
+    float:left;
+    margin:0;
+    padding:0
+}
+div.acc_trigger_editais{
+    background:url(images/header_acc_editais.png) no-repeat left -3px;
+    height:30px;
+    line-height:31px;
+    width:830px;
+    font-size:14px;
+    font-weight:400;
+    float:left;
+    margin:0;
+    padding:0
+}
+div.acc_trigger a,div.acc_trigger_editais a,div.acc_trigger_spec a{
+    color:#069;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    padding:0 0 0 33px
+}
+div.active{
+    background-position:left -35px
+}
+div.acc_trigger_spec .titulo_cursos{
+    width:750px
+}
+.modalidade_cursos{
+    width:110px;
+    float:left;
+    margin:0 34px 0 0
+}
+.vagas_cursos{
+    width:93px;
+    float:left
+}
+.ano_editais{
+    width:50px;
+    float:left;
+    margin:0 34px 0 0
+}
+.numero_editais{
+    width:150px;
+    float:left
+}
+.cursos_conteudo{
+    overflow:hidden;
+    font-size:1.2em;
+    width:820px;
+    clear:both;
+    background:url(images/bg_branco.png) repeat;
+    margin:0 0 5px;
+    padding:0
+}
+.cursos_conteudo .block{
+    font-size:12px;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    background-color:#f5f5f5;
+    margin:0 10px 0 25px;
+    padding:15px 10px
+}
+.cursos_conteudo .block p{
+    margin:5px 0;
+    padding:5px 0
+}
+.cursos_conteudo h3{
+    color:#069;
+    font:16px
+}
+.cursos_conteudo img{
+    margin:5px 5px 5px 5px
+}
+a.webmail{
+    height:15px;
+    background:url(images/btn_webmail.png) no-repeat 0 0;
+    float:left;
+    margin:2px 15px 0 0;
+    padding:2px 80px 5px 0
+}
+a.webmail:hover{
+    background:url(images/btn_webmail.png) no-repeat 0 -23px
+}
+.buscaNoticias{
+    background:url(images/bginputsearch.png) no-repeat;
+    margin:4px 0 0
+}
+.width_130{
+    font-size:11px;
+    margin:0 5px
+}
+#label{
+    font-weight:700;
+    padding-bottom:10px;
+    padding-top:10px;
+    color:#333
+}
+#corpo h3{
+    color:#069;
+    font-family:"Times New Roman",Times,serif;
+    font-size:20px;
+    margin:0 0 8px
+}
+#corpo>#meio a{
+    text-decoration:underline
+}
+#corpo h3 a{
+    color:#069
+}
+#corpo h2{
+    margin:0 0 8px
+}
+#esquerda{
+    width:170px;
+    position:relative;
+    float:left;
+    font-family:Verdana,Geneva,sans-serif;
+    color:#999;
+    font-size:11px;
+    line-height:17px;
+    margin:0 0 50px 0
+}
+.caixaslaterais{
+    border-bottom:dotted #CCC 1px;
+    margin-bottom:15px;
+    text-align:center
+}
+#meio{
+    width:58%;
+    position:relative;
+    float:left;
+    margin-left:23px;
+    margin-right:23px;
+    margin-bottom:30px;
+    font-family:verdana;
+    font-size:13px;
+    color:#333;
+    margin-bottom:10px;
+    text-align:left;
+    overflow:hidden;
+    padding-top:10px
+}
+.meioNewClass{
+    height:auto;
+    overflow:auto
+}
+#textos{
+    width:540px;
+    height:680px;
+    padding-bottom:20px
+}
+#textos img{
+    margin:5px
+}
+#botaoMais{
+    z-index:3;
+    background:url(images/bggraybar.jpg);
+    text-align:right;
+    position:relative;
+    cursor:pointer;
+    height:18px;
+    padding-bottom:5px;
+    padding-right:10px
+}
+#botaoMenos{
+    z-index:3;
+    background:url(images/bggraybar.jpg);
+    text-align:right;
+    position:relative;
+    cursor:pointer;
+    height:18px;
+    padding-bottom:5px;
+    padding-right:10px;
+    display:none
+}
+#meio ul{
+    margin-left:40px
+}
+#meio li{
+    list-style-type:disc
+}
+#data{
+    position:relative;
+    padding-top:2px;
+    float:left;
+    padding-left:4px
+}
+#barraleia a:hover{
+    color:#039;
+    text-decoration:underline
+}
+#direita{
+    width:170px;
+    position:relative;
+    float:left;
+    font-family:Verdana,Geneva,sans-serif;
+    color:#999;
+    font-size:11px;
+    line-height:17px;
+    padding:0
+}
+.titulo{
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-size:19px;
+    color:#069;
+    font-weight:400
+}
+.titulocenter{
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-size:19px;
+    color:#069;
+    position:relative;
+    float:left;
+    text-align:center;
+    font-weight:400;
+    width:100%;
+    margin-bottom:5px;
+    clear:both
+}
+#mais{
+    text-align:right;
+    margin:8px 0 0
+}
+#container{
+    position:relative;
+    width:380px;
+    margin:1em auto
+}
+#container ul{
+    list-style:none;
+    list-style-position:outside;
+    margin:0 0 0 21px
+}
+#container ul.menu_tabs li{
+    float:left;
+    margin-right:5px;
+    font-weight:700;
+    font-size:12px;
+    display:block;
+    background:#efefef;
+    margin-bottom:-1px;
+    border-top:1px solid #d0ccc9;
+    border-left:1px solid #d0ccc9;
+    border-right:1px solid #d0ccc9;
+    position:relative;
+    color:#898989;
+    cursor:pointer;
+    border-width:1px;
+    padding:3px 10px
+}
+#container ul.menu_tabs li.active{
+    background:#fff;
+    top:0;
+    color:#069;
+    border-bottom:1px solid #fff
+}
+div#verTodosSistemas a{
+    font-size:11px;
+    border:1px solid #fafafa;
+    width:60px;
+    text-align:center;
+    background-color:#00346d;
+    color:#fff;
+    position:absolute;
+    right:3px;
+    top:2px;
+    height:19px;
+    padding:0 1px
+}
+#tituloUnidade{
+    float:left;
+    width:300px;
+    padding-top:55px;
+    font-size:18px;
+    line-height:20px;
+    font-weight:bolder;
+    font-family:arial;
+    text-shadow:.1em .1em .2em #999;
+    color:#232323
+}
+#mensagemCampus{
+    font-size:12px;
+    color:#666;
+    text-align:center
+}
+a,#barraleia a:link{
+    text-decoration:none;
+    color:#666
+}
+ul,.optionsDivVisible p{
+    margin:0;
+    padding:0
+}
+a.resolva,.acessoRapido select,div.barra_busca small{
+    font-size:11px
+}
+li#trans:hover>span,li#trans>span:hover span{
+    display:block !important
+}
+.noticiasDestaque p a,.tomeNota a,.tomeNota a:hover{
+    color:#666
+}
+#page_navigation a,#page_navigation_acontece a{
+    border:1px solid #ccc;
+    color:#000;
+    text-decoration:none;
+    font-size:11px;
+    margin:0 2px;
+    padding:0 5px
+}
+#page_navigation a:hover,.page_navigation_cursos a:hover{
+    border:1px solid #333
+}
+.boxServicos,#boxSistemas{
+    background:url(images/bg_servicos.jpg) no-repeat 20px 0;
+    height:320px;
+    padding:10px 6px 15px 26px
+}
+.vitrineDestaque li,#breadcrumb ul li,#pagination_cursos ul li{
+    display:inline
+}
+.textoConteudoBloco,.conteudoBloco{
+    font-size:11px;
+    color:#666;
+    line-height:15px
+}
+.leftFooter h4,.leftFooterAlt h4{
+    font-size:13px;
+    margin-bottom:8px;
+    color:#333;
+    text-transform:lowercase
+}
+.leftFooter ul,.leftFooterAlt ul{
+    list-style-type:none
+}
+.leftFooter li a,.leftFooterAlt li a{
+    color:#333
+}
+.leftFooter li a:hover,.leftFooterAlt li a:hover{
+    text-decoration:underline !important
+}
+strong,h1,h2,h3,h4{
+    font-weight:700
+}
+div.acc_trigger a:hover .titulo_cursos,div.acc_trigger_editais a:hover .titulo_cursos,div.acc_trigger_spec a:hover .titulo_cursos{
+    text-decoration:underline
+}
+.selectArea .right i,.optionsDivInvisible,.content.sistemas{
+    display:none
+}
+div#controles_noticia,div.lista_noticias{
+    padding:20px 0
+}
+span.imprimir,span.enviar{
+    margin:0 23px 0 0
+}
+div#cursos,div#editais{
+    width:895px;
+    overflow:auto;
+    background:#ebebeb url(images/bg_cursos.jpg) no-repeat;
+    margin:20px auto
+}
+.barra,#meio p,#meioimg{
+    margin-bottom:10px
+}
+.titulo_cursos,.titulo_editais{
+    width:510px;
+    float:left;
+    margin:0 36px 0 0
+}
+.institucional,#corpo{
+    margin:25px 10px 22px
+}
+#radio{
+    margin-left:40px;
+    margin-top:20px
+}
+.radioMenu{
+    width:90px;
+    text-align:left;
+    font-size:10px;
+    font-weight:bold;
+    color:#333;
+    background:#dbd7c1;
+    padding-left:5px;
+    padding-right:5px;
+    margin-top:3px;
+    padding-bottom:2px;
+    height:20px
+}
+.playbt{
+    padding-left:10px;
+    padding-top:2px
+}
+.barra_tvuniversitaria{
+    margin:10px 0 45px 40px;
+    clear:both
+}
+div#tvUniversitaria{
+    background:url(images/bg_videoteca.jpg) no-repeat 0 30px
+}
+div.tvUniversitaria{
+    width:970px;
+    position:relative
+}
+div#content_tv{
+    padding:0 55px;
+    overflow:auto
+}
+div.area_video{
+    float:left;
+    width:550px
+}
+div.area_listaVideos{
+    float:right;
+    width:230px;
+    margin:13px 10px 15px 0;
+    height:315px;
+    overflow:auto
+}
+div.area_listaVideos ul{
+    margin:0 0 0 5px;
+    padding:0
+}
+div.barra_tvuniversitaria{
+    overflow:auto
+}
+div.titleTvuniversitaria{
+    float:left;
+    margin:15px 0 0 0
+}
+div.buscaTvUniversitaria{
+    float:right;
+    margin:0 90px 0 0
+}
+div.buscaTvUniversitaria fieldset{
+    background:url(images/bg_busca_tv.png) no-repeat;
+    height:50px
+}
+div.buscaTvUniversitaria input[type=text]{
+    border:0;
+    width:100px;
+    padding:3px 8px;
+    background:0;
+    float:left;
+    margin:13px 3px 0
+}
+div.buscaTvUniversitaria button{
+    background:0;
+    border:0;
+    height:40px;
+    width:70px;
+    cursor:pointer
+}
+span.tit_video a{
+    color:#2685d7;
+    font-size:20px;
+    display:block
+}
+span.info_video{
+    font-size:11px
+}
+span.info_video strong{
+    color:#900
+}
+div.descri_video{
+    color:#666;
+    float:left;
+    font-size:11px;
+    line-height:13px;
+    text-align:justify;
+    width:115px;
+    margin:8px 0 0
+}
+div.img_video{
+    float:left;
+    margin:8px 5px 0 0
+}
+div.boxList_videos{
+    margin:0 0 20px 0
+}
+span.bt_todos{
+    float:right;
+    clear:both;
+    margin:5px 52px 0 0;
+    position:absolute;
+    top:480px;
+    right:60px
+}
+.legenda_video_selected{
+    clear:both;
+    overflow:auto;
+    width:560px
+}
+span.info_video_selected{
+    float:left;
+    margin:10px 0;
+    font-size:11px
+}
+span.info_video_selected strong{
+    color:#900
+}
+span.exibicoes_video_selected{
+    float:right;
+    margin:10px 0;
+    font-size:11px
+}
+span.exibicoes_video_selected strong{
+    color:#900
+}
+div.descri_video_selected{
+    clear:both;
+    font-size:11px;
+    background-color:#f3f3f3;
+    padding:2px 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px
+}
+.tv{
+    margin-left:90px
+}
+.formBusca{
+    margin-left:40px;
+    font-size:14px
+}
+.livrosEditora li{
+    margin-right:10px
+}
+.listaNormas{
+    margin-left:20px;
+    font-size:12px;
+    margin-bottom:30px
+}
+.listaNormas a:hover{
+    text-decoration:underline
+}
+.listaNormas img{
+    margin-right:10px
+}
+.normasAcademicas{
+    font-size:14px;
+    font-weight:bold;
+    color:#666
+}
+.tabelacatalogo{
+    width:740px
+}
+.tabelacatalogo th{
+    font-weight:bold
+}
+.tabelacatalogo #right{
+    text-align:right
+}
+#formbusca{
+    margin-left:40px;
+    font-size:12px
+}
+.cat_date_editais{
+    color:#666;
+    font-size:12px;
+    text-decoration:underline;
+    padding-left:40px
+}
+#text_edital{
+    padding-left:40px
+}
+#text_edital p{
+    font-size:12px
+}
+#arquivos_edital{
+    margin-top:40px;
+    margin-left:50px
+}
+#arquivos_edital h2{
+    font-size:16px;
+    color:#333
+}
+.arquivo{
+    padding-top:20px;
+    padding-left:20px;
+    font-size:12px;
+    padding-right:60px;
+    margin-bottom:60px
+}
+.arquivo TABLE{
+    width:100%
+}
+.arquivo TABLE TD{
+    background:#eee;
+    padding:5px;
+    vertical-align:middle;
+    border-bottom:1px solid #ccc
+}
+.arquivo #alt{
+    width:150px
+}
+.barra_mec{
+    width:100%;
+    text-align:center;
+    background:#00500f;
+    border-bottom:1px solid #ffb400
+}
+.filtros-noticia{
+    font-size:12px
+}
+.filtros-noticia fieldset{
+    border:1px dotted #ccc;
+    height:50px;
+    padding-left:15px
+}
+
