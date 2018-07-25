@@ -6,6 +6,7 @@ description: Projeto de extenção futxicaiada tecnológica da Universidade Fede
   simulação de botões analógicos em javascript
 github_username: futxicaiadatec
 show_excerpts: false
+permalink: title
 minima:
   date_format: "%b %-d, %Y"
 theme: minima
