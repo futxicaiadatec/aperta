@@ -5,11 +5,12 @@
 @import "minima";
 
 body {
-    background-image:url({{ site.baseurl }}'/assets/bg_body.png');
+    background-image:url('{{ site.baseurl }}/assets/bg_body.png');
     background-repeat:repeat-x;
 }
 header > div.wrapper {
-    background-image:url({{ site.baseurl }}'/assets/banner_topo.jpg');
+    background-image:url('{{ site.baseurl }}/assets/banner_topo.jpg');
     background-repeat:repeat-x;
-    width:971px
+    margin-top: 3em;
+    width:960px
   }
