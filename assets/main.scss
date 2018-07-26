@@ -3,3 +3,14 @@
 ---
 
 @import "minima";
+
+body {
+    background-image:url({{/assets/bg_body.png | relative_url}});
+    background-repeat:repeat-x;
+}
+header > div.wrapper {
+    background-image:url({{/assets/banner_topo.jpg | relative_url}});
+    background-repeat:repeat-x;
+    overflow:auto;
+    width:971px
+  }
