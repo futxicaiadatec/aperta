@@ -20,7 +20,10 @@ function moveBar(x) {
     spanstrap.style.marginLeft = pbox.offsetWidth * x + 'px'
 }
 ```
-
+## Com ou sem açúcar?
+* Dobro Metade
+* Aceleração
+* Envelhecimento
 <script defer>
 const pbox = document.getElementById("pbox")
 const spanstrap = document.getElementById("spanstrap")
