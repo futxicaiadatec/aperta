@@ -7,16 +7,26 @@ title: "FUTX APERTA sinalogico"
 ![pulsação cardíaca]({{"/assets/pulso.jpg" | absolute_url}})
 
 <p id="pbox" class="box">
-  <span id="spanstrap" class="strap"> | </span>
+  <span id="spanstrap" class="strap">|</span>
 </p>
 ```javascript
 // atalhos para o DOM
-const input = document.getElementById('input')
-const button = document.getElementById('button')
+const pbox = document.getElementById("pbox")
+const spanstrap = document.getElementById("spanstrap")
+```
+```javascript
+// função para movimentar a barra
+function moveBar(x) {
+    spanstrap.style.marginLeft = pbox.offsetWidth * x + 'px'
+}
 ```
 
 <script defer>
-  
+const pbox = document.getElementById("pbox")
+const spanstrap = document.getElementById("spanstrap")
+function moveBar(x) {
+    spanstrap.style.marginLeft = pbox.offsetWidth * x + 'px'
+}
 </script>
 <style>
   p.box {
